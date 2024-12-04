@@ -9,6 +9,7 @@ import { MdManageAccounts } from "react-icons/md";
 
 export default function HomePage() {
   const { user, logout } = useAuth();
+  console.log(user)
   const router = useRouter();
 
   useEffect(() => {
@@ -22,7 +23,7 @@ export default function HomePage() {
     return null;
   }
 
-  const isAdmin = user.role.toLowerCase() === "admin";
+  const isAdmin = user?.role?.toLowerCase() === "admin";
 
   // Helper function to get user initials
   const getInitials = (name) => {

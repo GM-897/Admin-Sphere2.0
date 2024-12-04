@@ -6,6 +6,7 @@ import validator from "validator";
 export async function POST(req) {
   try {
     // Parse the request body
+    console.log(req.body)
     const { name, email, password } = await req.json();
 
     // Validate input

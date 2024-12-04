@@ -63,13 +63,15 @@ export function AuthProvider({ children }) {
 
   // SignUp Function
   const signUp = async (email, password, name) => {
+    console.log("singup is working");
+
     setLoading(true);
     setError(null);
     try {
       // Input validation
-      if (!validator.isEmail(email)) {
-        throw new Error("Invalid email format!");
-      }
+      // if (!validator.isEmail(email)) {
+      //   throw new Error("Invalid email format!");
+      // }
       if (password.length < 5) {
         throw new Error("Password must be at least 5 characters long!");
       }
@@ -90,10 +92,10 @@ export function AuthProvider({ children }) {
 
       // Parse the API response
       const newUser = await response.json();
-      setUser(newUser);
+      setUser(newUser.user);
 
       // Store the user in localStorage
-      localStorage.setItem("authUser", JSON.stringify(newUser));
+      localStorage.setItem("authUser", JSON.stringify(newUser.user));
 
       console.log("User created successfully:", newUser);
 
