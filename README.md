@@ -4,6 +4,7 @@ This project is an **Admin Dashboard** designed to provide a secure and user-fri
 
 <img width="1440" alt="home-page" src="https://github.com/user-attachments/assets/8b732bf9-05fd-4d2e-9263-22cf2350866f">
 
+<img width="1440" alt="Screenshot 2024-12-05 at 5 45 56 PM" src="https://github.com/user-attachments/assets/67ddb7be-6ad6-4ba9-b973-24f6e0ddb617">
 
 ---
 
@@ -16,7 +17,6 @@ This project is an **Admin Dashboard** designed to provide a secure and user-fri
 5. [Setup Instructions](#setup-instructions)  
 6. [Usage](#usage)  
 7. [Screenshots](#screenshots)  
-8. [Future Enhancements](#future-enhancements)  
 
 ---
 
@@ -40,46 +40,48 @@ The Admin Dashboard offers comprehensive user, role, and permission management c
 
 ---
 
-## **Features**
+## **Features**  
 
-### 1. **User Management**
-- View a list of all users.
-- Add, edit, and delete users.
-- Assign roles to users.
-- Manage user statuses (e.g., Active/Inactive).
-<img width="1440" alt="user management" src="https://github.com/user-attachments/assets/d8f6faf4-408f-4801-bf55-4c870d8f0cb4">
+### 1. **User Management**  
+- View all users.  
+- Add, edit, and delete users.  
+- Assign roles to users.  
+- Manage user statuses (Active/Inactive).  
 
-### 2. **Role Management**
-- Create new roles.
-- Edit existing roles.
-- Assign permissions (e.g., Read, Write, Delete) to roles.
-<img width="1440" alt="role management" src="https://github.com/user-attachments/assets/7977b183-e273-4a8d-b54c-a52416d853c8">
+### 2. **Role Management**  
+- Create new roles.  
+- Edit existing roles.  
+- Assign permissions (Read, Write, Delete) to roles.
+  <img width="1440" alt="Screenshot 2024-12-05 at 5 46 39 PM" src="https://github.com/user-attachments/assets/6e751ecb-c6f2-4dde-bb38-f5e00530d49d">
 
-### 3. **Dynamic Permissions**
-- Assign or modify permissions dynamically.
-- Display permissions clearly for intuitive management.
 
-### 4. **Responsive UI**
-- Designed to work seamlessly across devices and screen sizes.
-- Intuitive navigation and interactive elements for a better user experience.
+### 3. **Dynamic Permissions**  
+- Modify permissions dynamically.  
+- Clear and intuitive display of assigned permissions.  
+
+### 4. **Responsive UI**  
+- Fully responsive design for all devices.  
+- Intuitive navigation and interactive features.  
+
+### 5. **Authentication**  
+- Password hashing for secure user authentication.  
+- JWT-based authentication for secure access.  
+
+### 6. **Role-Based Access Control**  
+- Define custom roles (Admin, Developer, Tester, etc.).  
+- Role-based access ensures users have appropriate permissions.  
+
+### 7. **State Management**  
+- Efficient state management using Context API.
+
+## **Tech Stack**  
+
+- **Frontend:** Next.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT (JSON Web Tokens)  
+- **State Management:** Context API  
 
 ---
 
-## **Tech Stack**
-
-- **Frontend:** React.js, Material-UI (or TailwindCSS for styling)
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (or SQL-based database)
-- **Authentication:** JWT (JSON Web Tokens)
-- **Other Tools:** Axios, Redux (if state management is used)
-
----
-
-## **Setup Instructions**
-
-Follow these steps to set up the project locally:
-
-### **Prerequisites**
-1. [Node.js](https://nodejs.org/) installed.
-2. [MongoDB](https://www.mongodb.com/)
 
