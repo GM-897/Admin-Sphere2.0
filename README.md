@@ -25,7 +25,7 @@ This project is an **Admin Dashboard** designed to provide a secure and user-fri
 To get started with the Admin Dashboard, follow these steps:
 
 1. **Access the Web App**  
-   Visit the main application at: [Admin Dashboard] (https://admin-sphere-prod.vercel.app/)
+   Visit the main application at: [Admin Dashboard] (https://admin-sphere2-0.vercel.app/login)
 
 2. **Login Credentials**  
    Use the provided credentials to log in and explore the features:
