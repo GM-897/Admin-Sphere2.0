@@ -29,7 +29,7 @@ To get started with the Admin Dashboard, follow these steps:
 
 2. **Login Credentials**  
    Use the provided credentials to log in and explore the features:
-   - **Email:** vrv@gmail.com
+   - **Email:** user@gmail.com
    - **Password:** security  
 
 ---
